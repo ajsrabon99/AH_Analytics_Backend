@@ -1,0 +1,16 @@
+{
+  "name": "amar-hishab-analytics-backend",
+  "version": "1.0.0",
+  "description": "Isolated, privacy-friendly Developer Analytics Backend for Amar Hishab",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
